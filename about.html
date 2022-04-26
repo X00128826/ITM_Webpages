@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="topnav-1">
+        <a class="active" href="landing.html">Home</a>
+        <a href="index.html">Services</a>
+        <a href="about.html">Info</a>
+    </div>
+        <div class="container-3">
+        
+            <img id="about" src="img/about_us-removebg-preview.jpg" alt="no image" class="about_img">
+       
+        </div> 
+    <section>      
+            <div id="bios">
+                <div id="individual">
+                    <img id="thumbnail" src="img/james.jpg" alt="no image" width="15%" height="15%">
+                    <div id="bio">
+                        <h2 id="bioName">James Norris</h2>
+                        <p id="bioText">My name is James Norris and I mostly focused on the the front end webpage development with some Azure Devops uploads. This included: writing the wikis, doing a few class diagrams, designing and creating these pages, adding admin features and programming the filtering system.</p>
+                    </div>
+                </div>
+                <div id="individual">
+                    <img id="thumbnail" src="img/river.jpg" alt="no image" width="15%" height="15%">
+                    <div id="bio">
+                        <h2 id="bioName">Adelaide Poufong</h2>
+                        <p id="bioText">Hi, my name is Adelaide. I did multiple things for this project inlcuding: setting up the supabase, creating some ofthe use case description, the user acceptance test case, the performance testing, general organisation of Azure Devop.</p>
+                    </div>
+                </div>
+                <div id="individual">
+                    <img id="thumbnail" src="img/trees.jpg" alt="no image" width="15%" height="15%">
+                    <div id="bio">
+                        <h2 id="bioName">Person 3</h2>
+                        <p id="bioText">My name is Adam. I did the MQTT. This involved creating several containers that will be used to enter data into the database. I also helped with getting the databse setup and establishing the correct api keys to use.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+                    
+                <div class="grid-container-2-1">
+                    <div class="grid-child white">
+                        <form class="formSection"action="results.html" method="GET">
+                            <h3>Have a Query/Feedback? Let us know!</h3>
+                            <div id="formRow">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="name" required="">
+                            </div>
+                            <br>
+                            <div id="formRow">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="email" required="">
+                            </div>
+                            <br>
+                            <div id="formRow">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="subject" required="">
+                            </div>
+                            <br>
+                            <div id="formQuery">
+                                <label for="query">What is your query/feedback?</label>  
+                                <textarea name="query" id="formQuery" cols="30" rows="10"></textarea>
+                            </div>
+                            <br>
+                            <div id="formRow">
+                                <input id="formButton" type="reset"  value="Submit" onclick="alert('Thank you for your submission');">
+                                <input id="formButton" type="reset" onclick="alert('Click ok to reset');">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="grid-child white">
+                        <img class ="checklist" src="img/checklist-removebg-preview.jpg" alt="no checklist" width="65%" height="65%">
+                    </div>
+
+                    <div class="grid-child white">
+                        <h2>Contact us</h2>
+                        <ul id="socials">
+                            <li><a href="https://www.linkedin.com/in/jameswnorris97" target="_blank"><img src="img/linkedin.png" alt="Person 1 linkedin" width="10%" >James' linkedin</a></li>
+                            <li><a href='https://www.linkedin.com/in/adelaidepoufong' target="_blank"><img src="img/linkedin.png" alt="Person 2 linkedin" width="10%">Adelaide's linkedin</a></li>
+                            <li><img src="img/linkedin.png" alt="Person 3 linkedin" width="10%">Adam's linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>   
+
+            <div class="footer"> 
+                <div class="active">
+                    <ul>
+                    <li><a href="landing.html"><h4>Home</h4></a></li>
+                    <li><a href="index.html"><h4>Services</h4></a></li>
+                    <li><a href="about.html"><h4>Info</h4></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+    
+</body>
+</html>
